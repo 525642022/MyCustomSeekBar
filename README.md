@@ -7,12 +7,16 @@
   https://www.jianshu.com/p/e16189e8cf78
   
 简单引用
+
+
 	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
+	
+	
 
 	dependencies {
 	        implementation 'com.github.525642022:MyCustomSeekBar:Tag'
