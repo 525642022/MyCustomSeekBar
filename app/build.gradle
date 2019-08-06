@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.github.dcendents.android-maven'
+group='525642022'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.1"
@@ -30,5 +31,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation project(path: ':myseekbarlibrary')
+    implementation 'com.github.525642022:LayoutManagerTest:1.0'
 }
